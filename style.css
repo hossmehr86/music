@@ -1,0 +1,68 @@
+@charset "utf-8";
+/* آموزش طراحی وب سایت در گرگان
+شرکت نرم افزاری آینده سازان هنر نرم
+تلفن تماس:01732251871
+وب سایت:www.s4d.ir*/
+
+body{
+	margin: 0;
+	padding: 0;
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif";
+	background: #34495e;
+	
+}
+.Box{
+	width: 300px;
+	padding: 40px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	background: #191919;
+	text-align: center;
+	
+}
+.Box input[type = "text"] , .Box input[type="password"]{
+	border: 0;
+	background: none;
+	display: block;
+	margin: 20px auto;
+	text-align: center;
+	border: 2px solid #3498db;	
+	padding: 14px 10px;
+	width: 200px;
+	outline: none;
+	color: white;
+	border-radius: 24px;
+	transition: 0.25s;	
+}
+.Box h1{
+	color: white;
+}
+
+
+.Box input[type = "text"]:focus ,.Box input[type="password"]:focus {
+	width: 280px;
+	border-color: #2ecc71;
+}
+
+.Box input[type = "submit"]{
+	border: 0;
+	background: none;
+	display: block;
+	margin: 20px auto;
+	text-align: center;
+	border: 2px solid #2ecc71;	
+	padding: 14px 40px;
+	cursor: pointer;
+	outline: none;
+	color: white;
+	border-radius: 24px;
+	transition: 0.25s;
+}
+
+.Box input[type = "submit"]:hover{
+	background: #2ecc71;
+	
+	
+}
